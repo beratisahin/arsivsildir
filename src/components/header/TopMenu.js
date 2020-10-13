@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "./saglamlogo.jpg";
+import logo from "./ass.jpg";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
@@ -13,12 +13,12 @@ export default class TopMenu extends Component {
     return (
       <div
         className="p-0 m-0"
-        style={{ width: "100%",backgroundColor:"#f8f9fa" }}
+        style={{ width: "100%",backgroundColor:"white" }}
       >
         <div className="row p-0 m-0 pl-5">
 
           <div className="col-4">
-            <a href="/" title="Samsun Sağlam Profesyonel Temizlik">
+            <a href="/" title="Adli Sicil Sildir">
             <img
               
               style={{ height: "auto", width: "100px" }}

@@ -5,7 +5,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import logo from "./saglamlogo.jpg";
+import logo from "./ass.jpg";
 import { Link } from "react-router-dom";
 
 import React, { Component } from "react";
@@ -22,13 +22,13 @@ export default class Foooter extends Component {
   render() {
     return (
       <div>
-        <div class="row p-4" style={{ backgroundColor: "#f8f9fa" }}>
+        <div class="row p-4" style={{ backgroundColor: "white" }}>
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <a href="/" title="Samsun Profesyonel Sağlam Temizlik">
+            <a href="/" title="Adli Sicil Sildir">
               <img
                 src={logo}
                 alt="logo"
-                style={{ width: "90%", height: "150px" }}
+                style={{ width: "75%", height: "150px" }}
               ></img>
             </a>
             <p

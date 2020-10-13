@@ -1,8 +1,9 @@
 import './Slider.css';
-import house from './home.jpg';
-import armchair from './armchair.jpg';
-import upstair from './disenfection.jpg';
-import office from './dormitory.jpg';
+import law1 from './law1.jpg';
+import law2 from './law2.jpg';
+import law3 from './law3.jpg';
+import law4 from './law4.jpg';
+import law5 from './law5.jpg';
 import React, { Component } from 'react'
 
 export default class Slider extends Component {
@@ -14,22 +15,26 @@ export default class Slider extends Component {
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="3000">
-                            <img src={house} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Profesyonellik</h4>
+                            <img src={law1} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Adalet gücü bağımsız olmayan bir milletin, devlet halinde varlığı kabul olunmaz.</h4>
                          </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={armchair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Kurumsallık</h4>
+                            <img src={law2} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>İyi olmak kolaydır, zor olan adil olmaktır.</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={upstair} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Mükemmellik</h4>
+                            <img src={law3} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Geç kalan adalet adaletsizliktir.</h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={office} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
-                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Güvenilirlik</h4>
+                            <img src={law4} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Ülkeler kılıçla alınır, ancak adaletle korunur.</h4>
                         </div>
-                       
+                        <div className="carousel-item">
+                            <img src={law5} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}>Adaletin küçüldüğü ülkelerde, büyük olan artık suçlulardır.</h4>
+                        </div>
+                         
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>

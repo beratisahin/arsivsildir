@@ -18,8 +18,8 @@ export default class Navbar extends Component {
           className="mt-3"
           style={{ position: "absolute", left: "0", zIndex:'55555', color: "white",}}
         >
-          <Link className="nav-link" to="/" style={{ color: "red", fontSize:"18px"}}>
-            <b>SAĞLAM PROFESYONEL TEMİZLİK</b>
+          <Link className="nav-link" to="/" style={{ color: "orange", fontSize:"24px"}}>
+            <b>Adli Sicil Sildir</b>
           </Link>
         </div>
         
@@ -73,15 +73,7 @@ export default class Navbar extends Component {
                   <Link className="dropdown-item menu-item-link" to="/referanslarimiz">
                     Referanslarımız
                   </Link>
-                  <Link className="dropdown-item menu-item-link" to="/ekibimiz">
-                    Ekibimiz
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/is-basvurusu">
-                    İş Başvurusu
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/sss">
-                    S.S.S
-                  </Link>
+                  
                  
                 </div>
               </li>
@@ -140,20 +132,6 @@ export default class Navbar extends Component {
                   </Link>
                 </div>
               </li>
-              
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/calisma-prensibimiz" style={{ color: "#fff", fontSize: "20px" }}>
-                  ÇALIŞMA PRENSİBİMİZ
-                </Link>
-              </li>
-              &nbsp;
-              
-              <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/galeri" style={{ color: "#fff", fontSize: "20px" }}>
-                  GALERİ
-                </Link>
-              </li>
-              &nbsp;
               
               <li class="nav-item">
                 <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
