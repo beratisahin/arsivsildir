@@ -1,0 +1,16 @@
+#slide{
+    width: 80%;
+}
+
+#carouselExampleInterval{
+    width: 100%;
+    height: 450px;
+   
+    overflow: hidden;
+    
+}
+.d-block{
+    max-width: 100%;
+    overflow: hidden;
+
+}
