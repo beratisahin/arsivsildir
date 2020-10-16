@@ -17,7 +17,7 @@ function Home() {
             Adliyelerde bulunan Adli Sicil Müdürlüklerinden,
             Kaymakamlıklardan,
             Yurt dışında Büyükelçiliklerden ve konsolosluklardan,
-            E – devlet sistemiyle internet üzerinden kolaylıkla alınabilmektedir."
+            E – devlet sistemiyle internet üzerinden kolaylıkla alınabilmektedir. Adli sicil kaydı yoktur." 
             
 
 
@@ -35,7 +35,7 @@ function Home() {
         <div className="col-md-6 col-sm-12 col-12">
           <Services
             title="3- Sabıka kaydı ve adli sicil kaydı aynı şey mi?"
-            text="Kesinleşmiş ceza ve güvenlik tedbirleri ile mahkûmiyete ilişkin bilgilerinin bulunduğu kayda adli sicil kaydı ya da halk arasında bilinen adıyla sabıka kaydı denilmektedir. Dolayısıyla her ikisi de aynı şeyi ifade etmektedir. Kişinin işlediği herhangi bir suç nedeniyle hükmedilen ceza veya güvenlik tedbiri yaptırımının adli sicil kaydına işlenebilmesi için mahkeme kararının kesinleşmesi gerekir. Kesinleşmeyen mahkeme kararları adli sicil kaydında yer almaz. Kural olarak, ceza veya güvenlik tedbiri yaptırımı içeren her mahkumiyet kararı adli sicil kaydına işlenir."
+            text="Kesinleşmiş ceza ve güvenlik tedbirleri ile mahkûmiyete ilişkin bilgilerinin bulunduğu kayda adli sicil kaydı ya da halk arasında bilinen adıyla sabıka kaydı denilmektedir. Dolayısıyla her ikisi de aynı şeyi ifade etmektedir. Kişinin işlediği herhangi bir suç nedeniyle mahkeme tarafından hükmedilen ceza veya güvenlik tedbiri yaptırımının adli sicil kaydına işlenebilmesi için mahkeme kararının kesinleşmesi gerekir. Kesinleşmeyen mahkeme kararları kesinlikle adli sicil kaydında yer almaz. Kural olarak, ceza veya güvenlik tedbiri yaptırımı içeren her mahkumiyet kararı adli sicil kaydına işlenir."
             
           />
         </div>
@@ -44,7 +44,7 @@ function Home() {
           <Services
             title="4-Sabıka kaydı silinir mi?"
             text="Adli sicil kaydı veya diğer ifadesiyle sabıka kaydı silinebilmektedir. Ancak bunun için bazı şartları yerine getirmek gerekir. Normalde Kanunda geçen kurala göre, hükümlüye ait adli sicil kaydı cezanın infaz edilmesinden (denetim süreleri ve şartları da dâhil olmak üzere bittikten) sonra silinerek arşiv kaydına alınır. Bunun için Ankara’da bulunan Adli Sicil ve İstatistik Genel Müdürlüğü’ne başvuru yapmak gerekir. Müracaat için gerekli olan belgeler şunlardır:
-
+            Bunun için yetkili Adli Sicil ve İstatistik Genel Müdürlüğüdür.
             Kurallarına uygun şekilde yazılmış dilekçe
             Adli Sicil kaydı belgesi
             Yerine Getirme Fişleri
@@ -56,7 +56,7 @@ function Home() {
         <div className="col-md-6 col-sm-12 col-12">
           <Services
             title="5- Adli sicil kaydı silinmesi kaç gün sürer?"
-            text="Normal şartlarda dilekçelere bir ay, bazen bir buçuk ay içerisinde cevap verilmekte ve ancak kurallarına uygun olanlar silinmektedir.  Ancak Ankara Adli Sicil Sildirme uzmanı olarak gerekli belgeleri en hızlı şekilde temin ederek başvurularınızın çok daha kısa sürede sonuçlanmasına yardımcı olabiliriz."
+            text="Normal şartlarda sunulan dilekçelere bir ay, bazen bir buçuk ay içerisinde cevap verilmekte ve ancak kurallarına uygun olan dilekçeler ile kayıt silinmektedir.  Ancak Ankara Adli Sicil Sildirme uzmanı olarak gerekli belgeleri en hızlı şekilde temin ederek başvurularınızın çok daha kısa sürede sonuçlanmasına yardımcı olabiliriz."
             
           />
         </div>

@@ -14,15 +14,6 @@ import Home from "./components/home/Home";
 import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
 import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
-import EvTemizligi from "./components/hizmetler/ev-temizligi/EvTemizligi";
-import InsaatSonrasiTemizlik from "./components/hizmetler/insaat-sonrasi-temizlik/InsaatSonrasiTemizlik";
-import OfisTemizligi from "./components/hizmetler/ofis-temizligi/OfisTemizligi";
-import KoltukYikama from "./components/hizmetler/koltuk-yikama/KoltukYikama";
-import Dezenfektan from "./components/hizmetler/dezenfektan/Dezenfektan";
-import HaliYikama from "./components/hizmetler/hali-yikama/HaliYikama";
-import MerdivenTemizligi from "./components/hizmetler/merdiven-temizligi/MerdivenTemizligi";
-import YurtCamiTemizligi from "./components/hizmetler/yurt-cami-temizligi/YurtCamiTemizligi";
-import HamaliyeTemini from "./components/hizmetler/hamaliye-temini/HamaliyeTemini";
 import Iletisim from "./components/iletisim/ContactForm";
 
 
@@ -45,15 +36,6 @@ function App() {
             <Route path="/hakkimizda" component={Hakkimizda} />
             <Route path="/belgelerimiz" component={Belgerimiz} />
             <Route path="/referanslarimiz" component={Referanslarimiz} />
-            <Route path="/ev-temizligi" component={EvTemizligi} />
-            <Route path="/insaat-sonrasi-temizlik" component={InsaatSonrasiTemizlik} />
-            <Route path="/ofis-temizligi" component={OfisTemizligi} />
-            <Route path="/yerinde-koltuk-yikama" component={KoltukYikama} />
-            <Route path="/dezenfektan-ile-ilaclama" component={Dezenfektan} />
-            <Route path="/hali-yikama" component={HaliYikama} />
-            <Route path="/merdiven-temizligi" component={MerdivenTemizligi} />
-            <Route path="/yurt-cami-temizligi" component={YurtCamiTemizligi} />
-            <Route path="/hamaliye-temini" component={HamaliyeTemini} />
             <Route path="/iletisim" component={Iletisim} />
           </Switch>
 

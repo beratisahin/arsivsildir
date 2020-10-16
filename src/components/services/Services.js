@@ -1,7 +1,6 @@
 import './Services.css';
-import { Link } from "react-router-dom";
 import React, { Component } from 'react'
-import { Height } from '@material-ui/icons';
+
 
 export default class Services extends Component {
     render() {

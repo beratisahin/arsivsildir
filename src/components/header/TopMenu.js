@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import logo from "./ass.jpg";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import EmailIcon from "@material-ui/icons/Email";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import "./TopMenu.css"
 
@@ -34,25 +32,25 @@ export default class TopMenu extends Component {
           
           <div className="col-8 mt-5" style={{display:'flex', justifyContent:'flex-end',float:"right"}}>
             <a
-              href="https://www.facebook.com/114979717021494?referrer=whatsapp"
+              href="https://www.facebook.com/turkiyehukuk/"
               style={{ float: "left"}}
             >
               <FacebookIcon className="icon" style={{ fontSize: 30,color:"darkblue" }} />
             </a>
             <a
-              href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk"
+              href="https://www.instagram.com/hukukalemi/"
               style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
             >
               <InstagramIcon className="icon" style={{ fontSize: 30,color:"darkblue" }} />
             </a>
             <a
-              href="https://wa.me/+905432286396"
+              href="https://wa.me/+905376971155"
               style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
             >
               <WhatsAppIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>
             </a>
             <a
-              href="tel: +905432286396"
+              href="tel: +905376971155"
               style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
             >
               <SettingsPhoneIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>

@@ -28,9 +28,14 @@ export default class Foooter extends Component {
               <img
                 src={logo}
                 alt="logo"
-                style={{ width: "75%", height: "150px" }}
+                style={{ width: "75%", height: "150px",marginLeft:"40px" }}
               ></img>
             </a>
+            
+          </div>
+
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+            <b style={{ color: "black", fontSize: "18px" }}>Adli Sicil Kaydı Nedir?</b>
             <p
               className="mt-4"
               style={{
@@ -41,49 +46,11 @@ export default class Foooter extends Component {
               }}
             >
               {" "}
-              1500'lerden beri kullanılmakta olan standard Lorem Ipsum metinleri
-              ilgilenenler için yeniden üretilmiştir. Çiçero tarafından yazılan
-              1.10.32 ve 1.10.33 bölümleri de 1914 H. Rackham çevirisinden
-              alınan İngilizce sürümleri eşliğinde özgün biçiminden yeniden
-              üretilmiştir.
+              Adli sicil kaydı; Vatandaşın devlet nezdinde tutulan suç kaydına adli sicil kaydı adı verilmektedir. 
+              Sabıka kaydı olarak da bilinen adli sicil belgesinde bireyin 18 yaştan sonraki süreçlerde işlemiş olduğu suç ve fiiler yer almaktadır.
+              Başta iş başvuruları olmak üzere, her türlü resmi kuruluşa kayıt yapılırken istenmesi muhtemel evrakların başında gelmektedir.
             </p>
-          </div>
-
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "18px" }}>Hizmetlerimiz</b>
-            <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/ev-temizligi">Ev Temizliği</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/insaat-sonrasi-temizlik">
-                  İnşaat Sonrası Temizlik
-                </Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/ofis-temizligi">Ofis Temizliği</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/yerinde-koltuk-yikama">Yerinde Koltuk Yıkama</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/dezenfektan-ile-ilaclama">
-                  Dezenfektan ile İlaçlama
-                </Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/hali-yikama">Halı Yıkama</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/merdiven-temizligi">Merdiven Temizliği</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/yurt-cami-temizligi">Yurt-Cami-Okul Temizliği</Link>
-              </li>
-              <li onClick={() => this.scrollToTop()}>
-                <Link to="/hamaliye-temini">Hamaliye Temini</Link>
-              </li>
-            </ul>
+            
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -92,15 +59,11 @@ export default class Foooter extends Component {
               <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/hakkimizda">Hakkımızda</Link>
               </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/belgelerimiz">Belgelerimiz</Link>
-              </li>
+              
               <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/referanslarimiz">Referanslarımız</Link>
               </li>
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/ekibimiz">Ekibimiz</Link>
-              </li>
+              
               <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
                 <Link to="/iletisim">İletişim</Link>
               </li>
@@ -115,25 +78,25 @@ export default class Foooter extends Component {
               Sosyal Medya
             </p>
             <a
-              href="https://www.facebook.com/114979717021494?referrer=whatsapp"
+              href="https://www.facebook.com/turkiyehukuk/"
               style={{ float: "left" }}
             >
               <FacebookIcon />
             </a>
             <a
-              href="https://instagram.com/samsun_profesyonel_temizlik?igshid=17n1ktbi5mrbk"
+              href="https://www.instagram.com/hukukalemi/"
               style={{ float: "left", textIndent: "10px" }}
             >
               <InstagramIcon />
             </a>
             <a
-              href="https://wa.me/+905432286396"
+              href="https://wa.me/+905376971155"
               style={{ float: "left", textIndent: "10px" }}
             >
               <WhatsAppIcon />
             </a>
             <a
-              href="tel: +905446674526"
+              href="tel: +905376971155"
               style={{ float: "left", textIndent: "10px" }}
             >
               <SettingsPhoneIcon />
@@ -145,21 +108,21 @@ export default class Foooter extends Component {
               <a>
                 <EmailIcon />
               </a>
-              saglamprofesyoneltemizlik@gmail.com
+              adlisicilsildir@gmail.com
             </p>
             <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <SettingsPhoneIcon />
               </a>{" "}
-              0543 228 63 96
+              0537 697 11 55
             </p>
             <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
               {" "}
               <a>
                 <HomeIcon />
               </a>
-              Yenidoğan Mahallesi Akagündüz Caddesi İlkadım/Samsun{" "}
+              Atatürk Caddesi No:1919 Çankaya/ANKARA{" "}
             </p>
           </div>
         </div>

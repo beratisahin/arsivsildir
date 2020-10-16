@@ -78,60 +78,7 @@ export default class Navbar extends Component {
                 </div>
               </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  style={{ color: "#fff", fontSize: "20px" }}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  HİZMETLERİMİZ
-                </a>
-                &nbsp;
-                
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <Link className="dropdown-item menu-item-link" to="/ev-temizligi">
-                    Ev Temizliği
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/insaat-sonrasi-temizlik"
-                  >
-                    İnşaat Sonrası Temizlik
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/ofis-temizligi">
-                    Ofis Temizliği
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/yerinde-koltuk-yikama">
-                    Yerinde Koltuk Yıkama
-                  </Link>
-                  <Link
-                    className="dropdown-item menu-item-link"
-                    to="/dezenfektan-ile-ilaclama"
-                  >
-                    Dezenfektan İle İlaçlama
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/hali-yikama">
-                    Halı Yıkama
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/merdiven-temizligi">
-                    Merdiven Temizliği
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/yurt-cami-temizligi">
-                    Yurt - Cami - Okul Temizliği
-                  </Link>
-                  <Link className="dropdown-item menu-item-link" to="/hamaliye-temini">
-                    Hamaliye Temini
-                  </Link>
-                </div>
-              </li>
+            
               
               <li class="nav-item">
                 <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
