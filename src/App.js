@@ -12,9 +12,9 @@ import {
 
 import Home from "./components/home/Home";
 import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
-import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
 import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
 import Iletisim from "./components/iletisim/ContactForm";
+import Lokasyon from "./components/kurumsal/lokasyonumuz/Lokasyonumuz";
 
 
 
@@ -30,14 +30,17 @@ function App() {
           <div className="col-12 m-0 p-0">
             <Navbar />
           </div>
-
+          <div className="interior" style={{backgroundColor:"#D3D3D3"}}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/hakkimizda" component={Hakkimizda} />
-            <Route path="/belgelerimiz" component={Belgerimiz} />
             <Route path="/referanslarimiz" component={Referanslarimiz} />
+            <Route path="/lokasyonumuz" component={Lokasyon} />
+
             <Route path="/iletisim" component={Iletisim} />
           </Switch>
+
+          </div>
 
           <div className="col-12">
             <Foooter />

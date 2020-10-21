@@ -84,10 +84,11 @@ class ContactForm extends Component {
       };
 
       emailjs.send(
-        "profesyonel_55",
-        "template_42kjtfd",
+        "service_vx1kefm",
+        "template_2rsbnbr",
         templateParams,
-        "user_9lI9sknsZF7ahiIJ6SHQR"
+        "user_bTFsTGKw8lxQ3pgyrwFWI"
+        
       );
 
       console.log(`
@@ -205,7 +206,7 @@ class ContactForm extends Component {
                       formErrors.email.length > 0 ? "error" : null
                     }`}
                     onChange={this.handleChange}
-                    placeholder="Email"
+                    placeholder="Email example@gmail.com"
                     noValidate
                   ></input>
                   {formErrors.email.length > 0 && (

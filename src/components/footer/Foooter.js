@@ -35,14 +35,16 @@ export default class Foooter extends Component {
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "18px" }}>Adli Sicil Kaydı Nedir?</b>
+            <b style={{ color: "black", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>Adli Sicil Kaydı Nedir?</b>
             <p
               className="mt-4"
               style={{
-                fontSize: "13px",
+                fontSize: "15px",
                 color: "black",
                 textAlign: "justify",
                 textIndent: "1px",
+                fontFamily:"Comic Sans MS, cursive, sans-serif"
+
               }}
             >
               {" "}
@@ -54,17 +56,17 @@ export default class Foooter extends Component {
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "18px" }}>Kurumsal</b>
+            <b style={{ color: "black", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>Kurumsal</b>
             <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
-                <Link to="/hakkimizda">Hakkımızda</Link>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
+                <Link to="/hakkimizda" >Hakkımızda</Link>
               </li>
               
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
                 <Link to="/referanslarimiz">Referanslarımız</Link>
               </li>
               
-              <li onClick={() => this.scrollToTop()} style={{ color: "black" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
                 <Link to="/iletisim">İletişim</Link>
               </li>
             </ul>
@@ -74,55 +76,55 @@ export default class Foooter extends Component {
             className="col-lg-3 col-md-6 col-sm-6 col-12"
             style={{ fontSize: "15px" }}
           >
-            <p style={{ color: "black", fontWeight: "bold", fontSize: "18px" }}>
+            <p style={{ color: "black", fontWeight: "bold", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
               Sosyal Medya
             </p>
-            <a
-              href="https://www.facebook.com/turkiyehukuk/"
+            <a className="icon"
+              href="https://www.facebook.com/adli.sicil.1"
               style={{ float: "left" }}
             >
-              <FacebookIcon />
+              <FacebookIcon style={{fontSize:"24px"}}/>
             </a>
-            <a
-              href="https://www.instagram.com/hukukalemi/"
+            
+            <a className="icon"
+              href="https://wa.me/+905427724718"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <InstagramIcon />
+              <WhatsAppIcon style={{fontSize:"24px"}}/>
             </a>
-            <a
-              href="https://wa.me/+905376971155"
+            <a className="icon"
+              href="tel: +905427724718"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <WhatsAppIcon />
+              <SettingsPhoneIcon style={{fontSize:"24px"}}/>
             </a>
-            <a
-              href="tel: +905376971155"
-              style={{ float: "left", textIndent: "10px" }}
-            >
-              <SettingsPhoneIcon />
-            </a>
-
-            <br />
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            
+           
+            <br/>
+            <br/>
+            <p style={{ color: "blue", fontSize: "16px", textAlign: "left",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
               {" "}
-              <a>
-                <EmailIcon />
+              <a >
+                <EmailIcon style={{fontSize:"20px"}}/>
+                &nbsp;
               </a>
-              adlisicilsildir@gmail.com
+               adlisicilsildir@gmail.com
             </p>
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color: "blue", fontSize: "16px", textAlign: "left",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
               {" "}
               <a>
-                <SettingsPhoneIcon />
+                <SettingsPhoneIcon style={{fontSize:"20px"}} />
+                &nbsp;
               </a>{" "}
-              0537 697 11 55
+              0542 772 4718
             </p>
-            <p style={{ color: "blue", fontSize: "14px", textAlign: "left" }}>
+            <p style={{ color: "blue", fontSize: "16px", textAlign: "left" ,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
               {" "}
               <a>
-                <HomeIcon />
+                <HomeIcon style={{fontSize:"20px"}}/>
+                &nbsp;
               </a>
-              Atatürk Caddesi No:1919 Çankaya/ANKARA{" "}
+              Meşrutiyet Mahallesi Karanfil Sokak 38/18 Kızılay, Çankaya/ANKARA{" "}
             </p>
           </div>
         </div>

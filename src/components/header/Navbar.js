@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import brand from'./brand.jpg';
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
@@ -18,8 +19,10 @@ export default class Navbar extends Component {
           className="mt-3"
           style={{ position: "absolute", left: "0", zIndex:'55555', color: "white",}}
         >
-          <Link className="nav-link" to="/" style={{ color: "orange", fontSize:"24px"}}>
-            <b>Adli Sicil Sildir</b>
+          <Link className="nav-link" to="/" >
+                 
+            <p>ADLİ SİCİL SİLDİR</p>
+            
           </Link>
         </div>
         
@@ -44,7 +47,7 @@ export default class Navbar extends Component {
             <ul class="navbar-nav" style={{float:"right"}}>
               <li class="nav-item dropdown">
                 <a
-                  style={{ color: "#fff", fontSize: "20px" }}
+                  style={{ color: "#fff", fontSize: "22px" }}
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdownMenuLink"
@@ -66,12 +69,11 @@ export default class Navbar extends Component {
                   <Link className="dropdown-item menu-item-link" to="/hakkimizda">
                     Hakkımızda
                   </Link>
-
-                  <Link className="dropdown-item menu-item-link" to="/belgelerimiz">
-                    Belgelerimiz
-                  </Link>
                   <Link className="dropdown-item menu-item-link" to="/referanslarimiz">
                     Referanslarımız
+                  </Link>
+                  <Link className="dropdown-item menu-item-link" to="/lokasyonumuz">
+                    Lokasyonumuz
                   </Link>
                   
                  
@@ -81,7 +83,7 @@ export default class Navbar extends Component {
             
               
               <li class="nav-item">
-                <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "20px" }}>
+                <Link className="nav-link menu-item-link" to="/iletisim" style={{ color: "#fff", fontSize: "22px" }}>
                   İLETİŞİM
                 </Link>
               </li>
