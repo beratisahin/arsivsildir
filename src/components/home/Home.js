@@ -14,7 +14,7 @@ function Home() {
           <Services
             title="1- Adli Sicil Kaydı nedir? Sabıka Kaydı ve Adli Sicil Kaydı aynı şey midir?"
            
-            li1={<>•	Kesinleşmiş ceza ve güvenlik tedbirleri ile mahkûmiyete ilişkin bilgilerinin bulunduğu kayda <strong>adli sicil kaydı</strong>  ya da halk arasında bilinen ismiyle <strong>sabıka kaydı</strong> denilmektedir.</>}
+            text={<>Kesinleşmiş ceza ve güvenlik tedbirleri ile mahkûmiyete ilişkin bilgilerinin bulunduğu kayda <strong>adli sicil kaydı</strong>  ya da halk arasında bilinen ismiyle <strong>sabıka kaydı</strong> denilmektedir.</>}
 
 
 
@@ -37,7 +37,7 @@ function Home() {
         <div className="col-sm-12 col-12">
           <Services
             title="3- Adli sicil kaydı nasıl alınır veya Adli sicil kaydına nasıl bakılır?"
-            li1={<>•	TC kimlik numaranız ve e-devlet şifreniz ile birlikte e-devlet sistemine  giriş yaptıktan sonra arama butonunun olduğu sayfaya <strong>“adli sicil kaydı sorgulama”</strong>  yazıldığı takdirde karşınıza çıkan sayfayı “dosya indir” seçeneği ile indirebilirsiniz. Bu şekilde adli sicil kaydınıza ulaşmış olursunuz.</>}
+            text={<>TC kimlik numaranız ve e-devlet şifreniz ile birlikte e-devlet sistemine  giriş yaptıktan sonra arama butonunun olduğu sayfaya <strong>“adli sicil kaydı sorgulama”</strong>  yazıldığı takdirde karşınıza çıkan sayfayı “dosya indir” seçeneği ile indirebilirsiniz. Bu şekilde adli sicil kaydınıza ulaşmış olursunuz.</>}
             
           />
         </div>
@@ -56,7 +56,7 @@ function Home() {
         <div className="col-sm-12 col-12">
           <Services
             title="5- Adli sicil kaydı silinmesi kaç gün sürer?"
-            li1={<>•	Olağan şartlarda dilekçelere bir ay, bazen bir buçuk ay içerisinde cevap verilmekte ve ancak kurallarına uygun olanlar silinmektedir.  Ancak <strong>Ankara Adli Sicil Sildirme uzmanı olarak gerekli belgeleri en hızlı şekilde temin ederek başvurularınızın çok daha kısa sürede sonuçlanmasına yardımcı olabiliriz</strong>.</>}
+            text={<>Olağan şartlarda dilekçelere bir ay, bazen bir buçuk ay içerisinde cevap verilmekte ve ancak kurallarına uygun olanlar silinmektedir.  Ancak <strong>Ankara Adli Sicil Sildirme uzmanı olarak gerekli belgeleri en hızlı şekilde temin ederek başvurularınızın çok daha kısa sürede sonuçlanmasına yardımcı olabiliriz</strong>.</>}
           />
         </div>
 

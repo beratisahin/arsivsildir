@@ -14,19 +14,19 @@ export default class Slider extends Component {
                 <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-interval="2000">
-                            <img src={law3} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={law3} className="d-block img-responsive w-100" title="adli sicil" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}></h4>
                          </div>
                         <div className="carousel-item" data-interval="2000">
-                            <img src={law2} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={law2} className="d-block img-responsive w-100" title="sabıka kaydı" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}></h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={law1} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={law1} className="d-block img-responsive w-100" title="adli sicil" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}></h4>
                         </div>
                         <div className="carousel-item">
-                            <img src={law4} className="d-block img-responsive w-100" alt="logo" style={{height:"400px"}}></img>
+                            <img src={law4} className="d-block img-responsive w-100" title="sabıka kaydı" alt="logo" style={{height:"400px"}}></img>
                             <h4 style={{display:"flex", justifyContent:"center",textAlign:"center"}}></h4>
                         </div>
                         

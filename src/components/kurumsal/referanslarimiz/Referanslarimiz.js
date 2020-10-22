@@ -8,7 +8,7 @@ function Referanslarimiz() {
            
             
         <div className="referans" style= {{margin:"auto"}}>
-        <h3 style={{textAlign:"center",color:"orange",fontFamily:'Comic Sans MS, cursive, sans-serif'}}>Referanslarımız</h3>
+        <h3 style={{textAlign:"center",color:"orange",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>Referanslarımız</h3>
             <img
               
               style={{ height: "auto", width: "100%",margin:"auto"}}

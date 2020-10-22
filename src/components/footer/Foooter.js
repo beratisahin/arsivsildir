@@ -35,7 +35,7 @@ export default class Foooter extends Component {
           </div>
 
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>Adli Sicil Kaydı Nedir?</b>
+            <b style={{ color: "black", fontSize: "20px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>Adli Sicil Kaydı Nedir?</b>
             <p
               className="mt-4"
               style={{
@@ -58,15 +58,15 @@ export default class Foooter extends Component {
           <div className="col-lg-3 col-md-6 col-sm-6 col-12">
             <b style={{ color: "black", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>Kurumsal</b>
             <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
                 <Link to="/hakkimizda" >Hakkımızda</Link>
               </li>
               
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
                 <Link to="/referanslarimiz">Referanslarımız</Link>
               </li>
               
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
+              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
                 <Link to="/iletisim">İletişim</Link>
               </li>
             </ul>
@@ -76,7 +76,7 @@ export default class Foooter extends Component {
             className="col-lg-3 col-md-6 col-sm-6 col-12"
             style={{ fontSize: "15px" }}
           >
-            <p style={{ color: "black", fontWeight: "bold", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>
+            <p style={{ color: "black", fontWeight: "bold", fontSize: "20px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
               Sosyal Medya
             </p>
             <a className="icon"
@@ -102,7 +102,7 @@ export default class Foooter extends Component {
            
             <br/>
             <br/>
-            <p style={{ color: "blue", fontSize: "16px", textAlign: "left",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
               {" "}
               <a >
                 <EmailIcon style={{fontSize:"20px"}}/>
@@ -110,7 +110,7 @@ export default class Foooter extends Component {
               </a>
                adlisicilsildir@gmail.com
             </p>
-            <p style={{ color: "blue", fontSize: "16px", textAlign: "left",fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
               {" "}
               <a>
                 <SettingsPhoneIcon style={{fontSize:"20px"}} />
@@ -118,7 +118,7 @@ export default class Foooter extends Component {
               </a>{" "}
               0542 772 4718
             </p>
-            <p style={{ color: "blue", fontSize: "16px", textAlign: "left" ,fontFamily:"Comic Sans MS, cursive, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left" ,fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
               {" "}
               <a>
                 <HomeIcon style={{fontSize:"20px"}}/>

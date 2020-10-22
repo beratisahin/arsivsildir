@@ -20,7 +20,8 @@ export default class TopMenu extends Component {
               
               style={{ height: "auto", width: "100px" }}
               src={logo}
-              alt="logo"
+              title="adli sicil"
+              alt="adli sicil"
               
             ></img>
             </a>

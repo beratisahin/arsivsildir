@@ -9,7 +9,7 @@ function Hakkimizda() {
             
            
             
-            <div className="hakkımızda" style={{fontFamily:'Comic Sans MS, cursive, sans-serif'}}>
+            <div className="hakkımızda" style={{fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
                 <h3 style={{textAlign:"center",color:"orange"}}>Hakkımızda</h3>
                 <p className="hak" >
                 Danışmanlık  ofisimiz, Ankara merkezli bir danışmanlık ofisi olup Türkiye genelindeki ve yurt dışındaki çok sayıdaki çözüm ortağı ve bünyesindeki avukatlarla  birlikte yerli ve yabancı danışanlarına  ticari ve hukuki danışmanlık hizmetleri sunmaktadır.
@@ -27,7 +27,7 @@ Ofisimiz, müvekkil-vekil, danışan-danışman arasındaki karşılıklı güve
                 </p>
                 <br/>
 
-                <img src={law3_1} className="d-block" alt="logo" style={{width:"100%",height:"300px", paddingLeft:"10%",paddingRight:"10%"}}></img>
+                <img src={law3_1} className="d-block" title="adli sicil" alt="sabıka kaydı" style={{width:"100%",height:"300px", paddingLeft:"10%",paddingRight:"10%"}}></img>
                 <br/>
 
               

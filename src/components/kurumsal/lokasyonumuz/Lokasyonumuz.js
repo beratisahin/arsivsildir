@@ -8,7 +8,7 @@ function Lokasyonumuz() {
            
             
         <div className="referans" style= {{margin:"auto"}}>
-        <h3 style={{textAlign:"center",color:"orange",fontFamily:'Comic Sans MS, cursive, sans-serif'}}>Lokasyonumuz</h3>
+        <h3 style={{textAlign:"center",color:"orange",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>Lokasyonumuz</h3>
             <img
               
               style={{ height: "auto", width: "100%",paddingLeft:"5%",paddingRight:"5%"}}
