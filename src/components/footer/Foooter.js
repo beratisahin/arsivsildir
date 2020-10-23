@@ -43,7 +43,7 @@ export default class Foooter extends Component {
                 color: "black",
                 textAlign: "justify",
                 textIndent: "1px",
-                fontFamily:"Comic Sans MS, cursive, sans-serif"
+                fontFamily:"Trebuchet MS, Helvetica, sans-serif"
 
               }}
             >
