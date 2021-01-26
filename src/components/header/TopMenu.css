@@ -1,4 +1,51 @@
 
-.icon:hover{
-    color: orange !important;
+
+.icon_top{
+    font-size: x-large !important;
+   
+    margin-left: 1rem !important;
 }
+
+.icon_top:hover{
+    color:#66CC00 !important;
+}
+.firma_ismi{
+    text-decoration: none !important;
+
+}
+.firma_ismi:hover{
+    
+    text-decoration: none !important;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1370px) {
+    .firma_ismi{
+        font-size: xx-large !important;
+        
+    }
+
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 800px) {
+    .icon_top{
+        font-size: x-large !important;
+        margin-left: 0.1rem !important;
+    }
+    .top_image{
+        width: 10rem !important;
+        height: 10rem !important;
+        margin-left: -3rem !important;
+    }
+    .firma_ismi{
+        font-size: x-large !important;
+        
+    }
+    .medya-div{
+        
+        margin-top:3rem !important;
+        
+    }
+  }

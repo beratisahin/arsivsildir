@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import logo from "./ass.jpg";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import { Link } from "react-router-dom";
+import Logo from "./ass.jpg";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import "./TopMenu.css"
@@ -9,48 +9,53 @@ export default class TopMenu extends Component {
   render() {
     return (
       <div
-        className="p-0 m-0"
-        style={{ width: "100%",backgroundColor:"white" }}
+        className="row p-0 m-0"
+        style={{ width: "100%",backgroundColor:"#ffffff" }}
       >
-        <div className="row p-0 m-0 pl-5">
+        <div className="col-12" style={{display:"inline"}}>
 
-          <div className="col-4">
-            <a href="/" title="Adli Sicil Sildir">
-            <img
+            <div className="col-2" style={{float:"left"}}>
+              <a href="/" title="Adli Sicil Sildir">
+              <img
+                className="top_image"
+                style={{ height: "10rem", width: "14rem",padding:"1rem" }}
+                src={Logo}
+                alt="logo"
+                
+              ></img>
+              </a>
               
-              style={{ height: "auto", width: "100px" }}
-              src={logo}
-              title="adli sicil"
-              alt="adli sicil"
-              
-            ></img>
-            </a>
-            
-          </div>
+            </div>
+
+            <div
+              className="col-8 firma_div"
+              style={{ color: "white",float:"left",marginTop:"3rem"}}
+              >
+              <Link className="firma_ismi" to="/" style={{ color: "#4682B4",fontWeight:"bold", fontSize:"xx-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
+                <b>ADLİ SİCİL SİLDİR</b>
+              </Link>
+            </div>
 
 
           
-          <div className="col-8 mt-5" style={{display:'flex', justifyContent:'flex-end',float:"right"}}>
-            <a
-              href="https://www.facebook.com/adli.sicil.1"
-              style={{ float: "left"}}
-            >
-              <FacebookIcon className="icon" style={{ fontSize: 30,color:"darkblue" }} />
-            </a>
-           
-            <a
-              href="https://wa.me/+905427724718"
-              style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
-            >
-              <WhatsAppIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>
-            </a>
-            <a
-              href="tel: +905427724718"
-              style={{ float: "left", textIndent: "10px",fontSize:"16px" }}
-            >
-              <SettingsPhoneIcon className="icon" style={{ fontSize: 30,color:"darkblue" }}/>
-            </a>
-          </div>
+            <div className="col-2 medya-div" style={{display:'flex', justifyContent:'flex-end',float:"right",marginTop:"3rem",marginRight:"-1rem"}}>
+                 &nbsp;
+                  <a
+                    href="https://wa.me/+905427724718"
+                    target="_blank"
+                    style={{ float: "left" }}
+                  >
+                    <WhatsAppIcon className="icon_top" style={{color:"#4682B4"}} />
+                  </a>
+
+                  <a
+                    href="tel: +905427724718"
+                    target="_blank"
+                    style={{ float: "left"}}
+                  >
+                    <SettingsPhoneIcon className="icon_top" style={{color:"#4682B4"}} />
+                  </a>
+            </div>
 
         </div>
       </div>

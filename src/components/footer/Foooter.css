@@ -9,19 +9,24 @@
     text-align: left;
 }
 .icon:hover{
-  color:orange;
+  color:green !important;
   
 }
 
 ul li {
   list-style-type:circle;
+  font-size: small;
+  text-decoration: none;
   
   
 }
+.faydalı li:hover{
+  text-decoration: none;
+}
 
-.bottomlist li:hover a:not(.active){
-  color:orange;
-  font-size: 20px;
-  
+
+.faydalı li:hover a:not(.active){
+  color:#499078;
+  text-decoration: none;
 }
 

@@ -8,21 +8,21 @@ export default class Services extends Component {
            const {title,text,li1,li2,li3,li4}=this.props;
            return (
 
-                   <div>
-                        <div className="col-12 m-4 pl-5 pr-5 pt-2 pb-2" style={{backgroundColor:"#FFFAF0",borderRadius:"5px",textAlign:"float"}}>
-                                <p class="card-title" style={{color:"#000080",textAlign:"left"}}>{title}</p>
+                   
+                        <div >
+                                <p class="card-title" style={{color:"#4682B4",textAlign:"left"}}>{title}</p>
                                 
-                                <p class="card-text" style={{fontSize:"18px",textAlign:"justify"}}>{text}</p>
+                                <p class="card-text" style={{}}>{text}</p>
                                 <ul>
-                                        <li class="card-list1" style={{fontSize:"18px",listStyleType:"none",textAlign:"left"}}>{li1}</li>
-                                        <li class="card-list2" style={{fontSize:"18px",listStyleType:"none",textAlign:"left"}}>{li2}</li>
-                                        <li class="card-list3" style={{fontSize:"18px",listStyleType:"none",textAlign:"left"}}>{li3}</li>
-                                        <li class="card-list4" style={{fontSize:"18px",listStyleType:"none",textAlign:"left"}}>{li4}</li>
+                                        <li class="card-list" style={{}}>{li1}</li>
+                                        <li class="card-list" style={{}}>{li2}</li>
+                                        <li class="card-list" style={{}}>{li3}</li>
+                                        <li class="card-list" style={{}}>{li4}</li>
                                         
                                 </ul>
                 
 
-                        </div>
+                       
 
                    </div>
 

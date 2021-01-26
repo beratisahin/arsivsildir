@@ -1,9 +1,34 @@
-.card-text,.card-list1,.card-list2, .card-list3, .card-list4{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    
+
+.card-text{
+    text-align: justify !important;
+    font-size: medium !important;
 }
 
+.card-list{
+    font-size:medium !important;
+    list-style-type: none !important;
+    text-Align:justify !important
+
+}
+
+
 .card-title{
-    font-size: 22px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: large !important;
+  
+}
+
+
+
+/* On screens that are less than 1025px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1100px) {
+    .card-title{
+      font-size: medium !important;
+    
+    }
+
+    .card-text,.card-list{
+        font-size: small !important;
+    }
+   
+  
 }

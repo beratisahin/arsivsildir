@@ -1,13 +1,10 @@
 #slide{
     width: 80%;
-    padding-top:0px;
-    
-    
 }
-/* height:450px; */
+
 #carouselExampleInterval{
     width: 100%;
-    height: 100%;
+    height: 450px;
    
     overflow: hidden;
     
@@ -17,3 +14,30 @@
     overflow: hidden;
 
 }
+/* On screens that are less than 800px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1370px) {
+    #slide{
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .slidephoto{
+        height: 30rem !important;
+    }
+
+    .istatistik{
+        display: none !important;
+    }
+ }
+
+
+/* On screens that are less than 800px wide, make the sidebar into a topbar */
+@media screen and (max-width: 800px) {
+    #slide{
+        width: 100% !important;
+    }
+
+    .slidephoto{
+        height: 25rem !important;
+    }
+ }

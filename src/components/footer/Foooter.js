@@ -23,7 +23,7 @@ export default class Foooter extends Component {
     return (
       <div>
         <div class="row p-4" style={{ backgroundColor: "white" }}>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>
             <a href="/" title="Adli Sicil Sildir">
               <img
                 src={logo}
@@ -34,16 +34,16 @@ export default class Foooter extends Component {
             
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "20px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>Adli Sicil Kaydı Nedir?</b>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>
+            <p style={{ color: "#499078", fontSize: "20px" ,textAlign:"center"}}>Adli Sicil Kaydı Nedir?</p>
             <p
               className="mt-4"
               style={{
                 fontSize: "15px",
                 color: "black",
                 textAlign: "justify",
-                textIndent: "1px",
-                fontFamily:"Trebuchet MS, Helvetica, sans-serif"
+              
+               
 
               }}
             >
@@ -55,32 +55,26 @@ export default class Foooter extends Component {
             
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-            <b style={{ color: "black", fontSize: "20px",fontFamily:"Comic Sans MS, cursive, sans-serif" }}>Kurumsal</b>
-            <ul className="bottomlist">
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
-                <Link to="/hakkimizda" >Hakkımızda</Link>
-              </li>
-              
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
-                <Link to="/referanslarimiz">Referanslarımız</Link>
-              </li>
-              
-              <li onClick={() => this.scrollToTop()} style={{ color: "black",fontSize:"16px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
-                <Link to="/iletisim">İletişim</Link>
-              </li>
+          <div className="col-lg-3 col-md-6 col-sm-6 col-12 " style={{marginBottom:"1.5rem"}}>
+              <p style={{ color: "#499078", fontSize: "20px",textAlign:"center"}}> Faydalı Bağlantılar </p>
+            <ul className="faydalı">
+                      <li>
+                      <a className="baglantı" href="https://www.adalet.gov.tr/" target="_blank">Türkiye Cumhuriyeti Adalet Bakanlığı</a>
+                      </li>
+                      <br/>
+                      <li>
+                      <a className="baglantı" href="https://adlisicil.adalet.gov.tr/" target="_blank">Adli Sicil ve İstatistik Genel Müdürlüğü</a>
+                      </li>
             </ul>
           </div>
 
           <div
-            className="col-lg-3 col-md-6 col-sm-6 col-12"
-            style={{ fontSize: "15px" }}
+            className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}
           >
-            <p style={{ color: "black", fontWeight: "bold", fontSize: "20px",fontFamily:"Trebuchet MS, Helvetica, sans-serif" }}>
-              Sosyal Medya
-            </p>
+            <p style={{ color: "#499078",  fontSize: "20px",textAlign:"center"}}>İletişim</p>
             <a className="icon"
               href="https://www.facebook.com/adli.sicil.1"
+              target="_blank"
               style={{ float: "left" }}
             >
               <FacebookIcon style={{fontSize:"24px"}}/>
@@ -88,21 +82,23 @@ export default class Foooter extends Component {
             
             <a className="icon"
               href="https://wa.me/+905427724718"
+              target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <WhatsAppIcon style={{fontSize:"24px"}}/>
+              <WhatsAppIcon style={{fontSize:"24px",color:"#66CC00"}}/>
             </a>
             <a className="icon"
               href="tel: +905427724718"
+              target="_blank"
               style={{ float: "left", textIndent: "10px" }}
             >
-              <SettingsPhoneIcon style={{fontSize:"24px"}}/>
+              <SettingsPhoneIcon style={{fontSize:"24px",color:"#66CC00"}}/>
             </a>
             
            
             <br/>
             <br/>
-            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left"}}>
               {" "}
               <a >
                 <EmailIcon style={{fontSize:"20px"}}/>
@@ -110,7 +106,7 @@ export default class Foooter extends Component {
               </a>
                adlisicilsildir@gmail.com
             </p>
-            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left",fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left"}}>
               {" "}
               <a>
                 <SettingsPhoneIcon style={{fontSize:"20px"}} />
@@ -118,7 +114,7 @@ export default class Foooter extends Component {
               </a>{" "}
               0542 772 4718
             </p>
-            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left" ,fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
+            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left" }}>
               {" "}
               <a>
                 <HomeIcon style={{fontSize:"20px"}}/>

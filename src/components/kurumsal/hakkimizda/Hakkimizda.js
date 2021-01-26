@@ -1,4 +1,4 @@
-import law3_1 from './law3.jpg';
+
 import './hakkımızda.css';
 import React from 'react'
 
@@ -9,8 +9,8 @@ function Hakkimizda() {
             
            
             
-            <div className="hakkımızda" style={{fontFamily:"Trebuchet MS, Helvetica, sans-serif"}}>
-                <h3 style={{textAlign:"center",color:"orange"}}>Hakkımızda</h3>
+            <div className="hakkımızda" style={{}}>
+                <h3 style={{textAlign:"center",color:"#4682B4"}}>Hakkımızda</h3>
                 <p className="hak" >
                 Danışmanlık  ofisimiz, Ankara merkezli bir danışmanlık ofisi olup Türkiye genelindeki ve yurt dışındaki çok sayıdaki çözüm ortağı ve bünyesindeki avukatlarla  birlikte yerli ve yabancı danışanlarına  ticari ve hukuki danışmanlık hizmetleri sunmaktadır.
 
@@ -26,11 +26,6 @@ function Hakkimizda() {
 Ofisimiz, müvekkil-vekil, danışan-danışman arasındaki karşılıklı güven, insana saygı ve gizlilik prensipleri üzerine temellendirilmiş ve bu çerçevede değişen zaman koşullarına uygun olarak verdiğimiz hizmetin kalitesini arttırmak ve en üst düzeye çıkarmak amacıyla ofisimiz sürekli gelişim içerisinde olmuştur.
                 </p>
                 <br/>
-
-                <img src={law3_1} className="d-block" title="adli sicil" alt="sabıka kaydı" style={{width:"100%",height:"300px", paddingLeft:"10%",paddingRight:"10%"}}></img>
-                <br/>
-
-              
             </div>
             
           
