@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Logo from "./ass.jpg";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
+import AccessTimeIcon from '@material-ui/icons/AccessTime';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./TopMenu.css"
 
 export default class TopMenu extends Component {
@@ -45,16 +47,19 @@ export default class TopMenu extends Component {
                     target="_blank"
                     style={{ float: "left" }}
                   >
-                    <WhatsAppIcon className="icon_top" style={{color:"#4682B4"}} />
+                    <LocationOnIcon className="icon_top" />
+                    
                   </a>
+                  <p className="top_icon_info">&nbsp;Çankaya/Ankara</p>
 
                   <a
                     href="tel: +905427724718"
                     target="_blank"
                     style={{ float: "left"}}
                   >
-                    <SettingsPhoneIcon className="icon_top" style={{color:"#4682B4"}} />
+                    <AccessTimeIcon className="icon_top"  />
                   </a>
+                  <p className="top_icon_info">&nbsp;7/24</p>
             </div>
 
         </div>

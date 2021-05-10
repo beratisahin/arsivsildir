@@ -2,13 +2,19 @@
 
 .icon_top{
     font-size: x-large !important;
-   
+    color:#499078 !important;
     margin-left: 1rem !important;
 }
 
 .icon_top:hover{
-    color:#66CC00 !important;
+    color:#4682B4 !important;
 }
+
+.top_icon_info{
+    font-size: medium !important;
+    color:#499078 !important;
+}
+
 .firma_ismi{
     text-decoration: none !important;
 

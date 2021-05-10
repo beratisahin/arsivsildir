@@ -98,18 +98,18 @@ export default class Foooter extends Component {
            
             <br/>
             <br/>
-            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left"}}>
+            <p style={{ color:"#4682B4", fontSize: "medium", textAlign: "left"}}>
               {" "}
-              <a >
+              <a href="mailto:adlisicilsildir@gmail.com" style={{textDecoration:"none"}}>
                 <EmailIcon style={{fontSize:"20px"}}/>
                 &nbsp;
               </a>
                adlisicilsildir@gmail.com
             </p>
-            <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left"}}>
+            <p style={{ color:"#4682B4", fontSize: "medium", textAlign: "left"}}>
               {" "}
               <a>
-                <SettingsPhoneIcon style={{fontSize:"20px"}} />
+                <SettingsPhoneIcon style={{fontSize:"medium"}} />
                 &nbsp;
               </a>{" "}
               0542 772 4718
@@ -117,7 +117,7 @@ export default class Foooter extends Component {
             <p style={{ color:"#4682B4", fontSize: "16px", textAlign: "left" }}>
               {" "}
               <a>
-                <HomeIcon style={{fontSize:"20px"}}/>
+                <HomeIcon style={{fontSize:"medium"}}/>
                 &nbsp;
               </a>
               Meşrutiyet Mahallesi Karanfil Sokak 38/18 Kızılay, Çankaya/ANKARA{" "}
