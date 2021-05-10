@@ -30,6 +30,9 @@
         font-size: xx-large !important;
         
     }
+    .medya-div{
+        display: none !important;
+    }
 
 }
 
