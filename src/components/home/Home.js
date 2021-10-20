@@ -44,7 +44,7 @@ function Home() {
             li1={<>•	Bulunduğunuz yerdeki Adliye içindeki <strong>Adli Sicil Müdürlüklerinden</strong>,</>}
             li2="•	Kaymakamlıklardan,"
             li3="•	Yurt dışında Büyükelçiliklerden ve Konsolosluklardan,"
-            li4="•	E – devlet sistemiyle internet üzerinden kolaylıkla alınabilmektedir."
+            li4="•	E–devlet sistemiyle internet üzerinden kolaylıkla alınabilmektedir."
             
             
             
