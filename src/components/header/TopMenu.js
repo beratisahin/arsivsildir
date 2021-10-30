@@ -21,7 +21,7 @@ export default class TopMenu extends Component {
               <a href="/" title="Adli Sicil Sildir">
               <img
                 className="top_image"
-                style={{ height: "10rem", width: "14rem",padding:"1rem" }}
+                style={{ height: "12rem", width: "16rem",padding:"1rem" }}
                 src={Ass}
                 alt="Adli Sicil Sildir"
                 title="Adli Sicil Sildir"
@@ -31,14 +31,7 @@ export default class TopMenu extends Component {
               
             </div>
 
-            <div
-              className="col-8 firma_div"
-              style={{ color: "white",float:"left",marginTop:"3rem"}}
-              >
-              <Link className="firma_ismi" to="/" style={{ color: "#4682B4",fontWeight:"bold", fontSize:"xx-large",textAlign:"center",align:"center",margin:"auto",display:"block"}}>
-                <b>ADLİ SİCİL SİLDİR</b>
-              </Link>
-            </div>
+            
 
 
           

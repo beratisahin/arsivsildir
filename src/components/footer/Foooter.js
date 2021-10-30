@@ -21,7 +21,7 @@ export default class Foooter extends Component {
   render() {
     return (
       <div>
-        <div class="row p-4" style={{ backgroundColor: "white" }}>
+        <div class="row p-4" style={{ backgroundColor:"#FFFFF3"}}>
           
 
           <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>

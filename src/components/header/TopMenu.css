@@ -26,14 +26,17 @@
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 1370px) {
-    .firma_ismi{
-        font-size: xx-large !important;
-        
-    }
-    .medya-div{
-        display: none !important;
-    }
+    
+    
 
+}
+
+ /* On screens that are less than 800px wide, make the sidebar into a topbar */
+ @media screen and (max-width: 1000px) {
+   .top_image{
+       width: 13rem !important;
+       height: 10rem !important;
+   }
 }
 
 
@@ -56,5 +59,12 @@
         
         margin-top:3rem !important;
         
+    }
+    .icon_top{
+        font-size: medium !important;
+        
+    }
+    .top_icon_info{
+        font-size: small !important;
     }
   }

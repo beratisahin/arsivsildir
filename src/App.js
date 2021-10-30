@@ -22,7 +22,7 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{backgroundColor:"#FFFFF3"}}>
         <div className="col-12 m-0 p-0">
           <div className="col-12 m-0 p-0">
             <TopMenu />
