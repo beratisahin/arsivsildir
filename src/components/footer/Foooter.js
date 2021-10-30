@@ -5,7 +5,6 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import HomeIcon from "@material-ui/icons/Home";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
-import logo from "./ass.jpg";
 import { Link } from "react-router-dom";
 
 import React, { Component } from "react";
@@ -23,18 +22,9 @@ export default class Foooter extends Component {
     return (
       <div>
         <div class="row p-4" style={{ backgroundColor: "white" }}>
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>
-            <a href="/" title="Adli Sicil Sildir">
-              <img
-                src={logo}
-                alt="logo"
-                style={{ width: "75%", height: "150px",marginLeft:"40px" }}
-              ></img>
-            </a>
-            
-          </div>
+          
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}>
             <p style={{ color: "#499078", fontSize: "20px" ,textAlign:"center"}}>Adli Sicil Kaydı Nedir?</p>
             <p
               className="mt-4"
@@ -55,7 +45,7 @@ export default class Foooter extends Component {
             
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-6 col-12 " style={{marginBottom:"1.5rem"}}>
+          <div className="col-lg-4 col-md-6 col-sm-6 col-12 " style={{marginBottom:"1.5rem"}}>
               <p style={{ color: "#499078", fontSize: "20px",textAlign:"center"}}> Faydalı Bağlantılar </p>
             <ul className="faydalı">
                       <li>
@@ -69,7 +59,7 @@ export default class Foooter extends Component {
           </div>
 
           <div
-            className="col-lg-3 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}
+            className="col-lg-4 col-md-6 col-sm-6 col-12" style={{marginBottom:"1.5rem"}}
           >
             <p style={{ color: "#499078",  fontSize: "20px",textAlign:"center"}}>İletişim</p>
             <a className="icon"
@@ -124,6 +114,21 @@ export default class Foooter extends Component {
             </p>
           </div>
         </div>
+
+        <div className="col-12">
+            
+            <hr/> 
+                    <div className="patent" >
+                        
+                            <p style={{fontSize:"12px",color:"black",paddingLeft:"1rem",float:"left"}}> ©2021 All Rights Reserved</p> 
+                            &nbsp; &nbsp;
+                            <a className="sebertech" href="tel: +905449125561"
+                               target="_blank" 
+                               style={{fontSize:"12px",color:"black",paddingRight:"1rem",float:"right",textAlign:"right"}}> ®Se<b>B</b>er Tech</a>
+                    </div>
+          </div>
+
+
       </div>
     );
   }

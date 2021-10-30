@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Foooter from "./components/footer/Foooter";
 import TopMenu from "./components/header/TopMenu";
-import BottomMenu from "./components/footer/BottomMenu";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import PhoneIcon from '@material-ui/icons/Phone';
 import {
@@ -45,9 +44,7 @@ function App() {
             <Foooter />
           </div>
           
-          <div className="col-12">
-            <BottomMenu />
-          </div>
+          
 
           <div className="roof-phone">
                 <a

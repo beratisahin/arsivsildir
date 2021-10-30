@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Logo from "./ass.jpg";
+import Ass from "./adlisicilsildir.png";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SettingsPhoneIcon from "@material-ui/icons/SettingsPhone";
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
@@ -12,7 +13,7 @@ export default class TopMenu extends Component {
     return (
       <div
         className="row p-0 m-0"
-        style={{ width: "100%",backgroundColor:"#ffffff" }}
+        style={{ width: "100%",backgroundColor:"#FFFFF3" }}
       >
         <div className="col-12" style={{display:"inline"}}>
 
@@ -21,8 +22,9 @@ export default class TopMenu extends Component {
               <img
                 className="top_image"
                 style={{ height: "10rem", width: "14rem",padding:"1rem" }}
-                src={Logo}
-                alt="logo"
+                src={Ass}
+                alt="Adli Sicil Sildir"
+                title="Adli Sicil Sildir"
                 
               ></img>
               </a>
